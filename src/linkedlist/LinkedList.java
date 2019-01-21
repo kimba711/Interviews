@@ -33,7 +33,7 @@ public class LinkedList {
 	
 	public void deleteNode( Node n ) {
 		if( !this.isEmpty() ){
-			Node n = this.head;
+			//Node n = this.head;
 			Node prev = n;
 			while(n.next != null){
 				prev = n;
@@ -73,11 +73,11 @@ public class LinkedList {
 	public static void main( String[] args ){
 		
 		LinkedList list = new LinkedList( new Node( "hi" ) );
-		//list.addValue( "bye" );
-		//list.addValue( "Steve" );
-		//list.addValue( "Stacy" );
-		//list.addValue( "Bob" );
-		list.deleteLast();
+		list.addValue( "bye" );
+		list.addValue( "Steve" );
+		list.addValue( "Stacy" );
+		list.addValue( "Bob" );
+		list.deleteNode( new Node( "Stacy" ) );
 		list.print();
 		//list.deleteFirst();
 		//list.print();
