@@ -7,6 +7,8 @@ public class LinkedList {
 	public LinkedList(Node head) {
 		this.head = head;
 	}
+	
+	public LinkedList() {};
 
 	public void addNode(Node node) {
 		if( this.isEmpty() ) {
