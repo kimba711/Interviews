@@ -1,12 +1,5 @@
 import java.util.concurrent.atomic.AtomicInteger;
-
-
-public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-}
+import trees.TreeNode;
 
 class BinaryTreeDiameter {
     public int diameterOfBinaryTree(TreeNode root) {
