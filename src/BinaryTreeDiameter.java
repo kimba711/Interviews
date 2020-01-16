@@ -8,7 +8,7 @@ public class TreeNode {
       TreeNode(int x) { val = x; }
 }
 
-class Solution {
+class BinaryTreeDiameter {
     public int diameterOfBinaryTree(TreeNode root) {
         if(root == null) {
             return 0;
