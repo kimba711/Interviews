@@ -4,25 +4,26 @@ class Solution(object):
         :type graph: List[List[int]]
         :rtype: bool
         """
-        visited = [False] * len(graph) 
-        colors = [-1] * len(graph)
-        queue = [0] #start node
-        colors[0] = 1 
-        visited[0] = 1
+        #visited = [False] * len(graph) 
+        colors = [-1] * len(graph) 
         
-        while queue:
+        
+        for i in xrange(0, len(graph)):
+            if colors[i] == -1:
+                queue = [i]
+                colors[i] = 1
+                #visited[startNode] = 1
 
-            node = queue.pop(0)
-            if not graph[node]: #floating node
-                return False
-            for i in graph[node]:
-                if not visited[i]:
-                    queue.append(i)
-                    visited[i] = True
-                    colors[i] = int( not colors[node])
-                    
-                else:
-                    if colors[node] == colors[i]:
-                        return False
+                while queue:
+                    node = queue.pop(0)
+                    for j in graph[node]:
+                        if colors[j] == -1: #not visited
+                            queue.append(j)
+                            #visited[i] = True
+                            colors[j] = int( not colors[node])
+
+                        else:
+                            if colors[node] == colors[j]:
+                                return False
                    
         return True
