@@ -1,1 +1,20 @@
 Interview prep
+Software and Frameworks: Windows, macOS, Linux, React, Jasmine, Eclipse, PyCharm, Visual Studio, vi, Korn shell, Git, Subversion, Apache Maven, Apache Tomcat, Tornado, Junit, Oracle SQL Developer, Microsoft Excel, Spring Framework, JMX, JIRA
+
+
+●	Designed and developed a web based Command Center web to manage and monitor progress in Market Risk data feed processing.  Wrote the web APIs and server-side logic as well as the client-side web pages. 
+○	Tech Stack:  React, Typescript, Python backend, SQL, In-house object-oriented database, Oracle database, Tornado servers, Jasmine, enzyme
+●	Designed and developed a Rules engine used to determine trade eligibility for consumption by JP Morgan’s Market Risk VaR calculation platform.  Integrated the engine with a Data Sourcing framework.
+○	Tech Stack: Python, In-house object-oriented database, Compute cluster
+●	Made technical enhancements to the Data Sourcing framework to support onboardings of diverse Position and Market data feeds.  Wrote utilities to assist feed onboarding teams with integration into the framework.
+●	Responsible for integrating the Rates business into JP Morgan’s Market Risk VaR calculation platform.  This platform sources trades from JPMorgan's Front office systems, identifies exposures and corresponding time series', sources reference/market data, generates shocks, and produces P&L Vectors for consumption by the firm's Risk Managers. Worked with Quants to align Rates business data to Risk calculator format using Python.  Designed, developed, tested, and maintained sub-system that packages calculator’s P&L Vectors with reference/market data to feed into Risk Aggregation/Reporting system, providing Risk Managers with information needed to assess impact of various market scenarios in Rates business.
+○	Tech Stack: Python, In-house object-oriented database, Linux, Compute cluster
+●	Implemented process to reconcile raw data sent to Risk Reporting system and aggregated data consumed by Rates business, to ensure that no data was corrupted in pipeline.
+○	Tech Stack: Python, In-house object-oriented database, Linux, Compute cluster
+●	Defined requirements, designed architecture, and developed new Java process to compile and transmit trade data quality exceptions. Increased flexibility and eliminated need for developer intervention
+○	Tech Stack: Java, SQL, Oracle database, Linux RedHat servers
+●	Made improvements to Swing GUI of thick client Market Risk reporting application to enhance user experience and provide new functionality.
+●	Regularly investigated and assisted business users with complex production issues.  Known for reliability and timely follow-ups.
+
+
+1295 5th Ave, Apt 22G New York NY 10029  
