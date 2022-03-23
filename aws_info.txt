@@ -1,1 +1,18 @@
 
+issue with lambda throttling,  how i solved it using message group IDs
+
+building serverless application.
+need to start lambdas on s3 Put events.  These lambdas would store the data in DynamoDB.
+Two issues.
+1. when the number of simultaneous Put events exceeded the max number of concurrent lambdas allowed, the unconsumed events were dropped.
+2. When number of records inserting into DynamoDB table at once were too high, DynamoDB throttled them, because it was set to auto-scale and the auto-scaling was taking too long. 
+
+I thought of using SQS to consume the S3 events, and then have the lambda consume the events from S3, to make it asynchronous.  Then the number of lambdas available drives the concurrency and lambda wouldn't throttle.
+But if there were 1000 lambdas available, DynamoDB would still throttle.  
+And we found that if we set a max lambda concurrency, it was ignored by SQS. SQS still kept pushing all the events to lambda, and retrying them until they ended up in a dead letter queue.
+
+So after some research I found someone resolved this problem by setting a MessageGroupID on messages in the (FIFO) SQS queue , which divided the queues into sort of sub-queue's  with different IDs.    SQS would only expose one [or some batch size] message from each Group's queue at a time, for some duration.
+So we could set our number of concurrent lambdas to the number of group IDs, say 50,  assign each message a group ID, and set the visibility duration to the average runtime of the lambda. This let us control how many messages were pushed to lambda and ensure we didnt lose messages.
+
+We would only lose messages if a lambda timed out before deleting the message from its Group queue  or if the lambda runtime somehow exceeded the visibility duration.
+And then the messge would be retried and most likely succeed the second time.
