@@ -1,0 +1,56 @@
+Annual Review Comments
+Business Results (S)
+Kimberly’s 2020 major accomplishments include
+•	Delivering Market risk progress tool for SRE, MRMO and tech management to monitor the progress of market risk processes like VaR, Stress, and Volcker, DE etc.
+•	Delivering Market Risk’s strategic monitoring and control tool over web called Falcon Command Center.
+•	Delivering bulk action features on command center for SRE and MRMO to perform control function for bulk of supplies.
+•	Delivering a clear feed orchestration monitoring for prod and for any development environments in a way that all information related to a run can be obtained from that one page.
+•	Various small enhancements like py2-py3, bug fixes, enhancements etc.
+Kim, in a single day put up the Market risk progress monitoring tool which was well received and appreciated by everyone in Management, SRE and MRMO. This is the first time in MR history, that as a team, we were able to show the progress of various processes in a single dashboard. Kim, being first UI developer using React JS/Typescript stack for core team, have really learnt to be a seasoned/experienced UI developer. In the process, she also made sure, some of the work can be made extensible for new dashboard to be added without much ground work.  This let to huge growth of the UI features which now hosts monitoring for different workflows like Data Sourcing, FRTB etc. Most of the MRMO asks for the command center has been built and delivered to the stake holder satisfaction. 
+Overall, she had a productive year and I wish her very best and would like to continue working wither for more project deliveries.
+** Comment from Stakeholder: MRMO **
+Kim is excellent to work with. She's very responsive and helpful when it comes to fielding questions on the Falcon Command Center. She helps us understand and prioritize new requirements for the CC with each iterative release. Sh also works with me after hours to help ensure we've done the proper testing before rolling into production. Because of her work we've been able to use a tool that is now benefiting the entire team with quick copyforwards, better feed/supply monitoring and audit log tracking. We hope to continue working with her for more improvements and getting us away from legacy tools due to this current work.
+Client / Customer / Stakeholder (S)
+One of main accomplishments for Kim this year has been able to get both SRE and MRMO on weekly prioritization forum and agree on controls and monitoring needed for MR processes. The control features were delivered to the satisfaction of the stakeholders.
+** Comment from Stakeholder: MRMO ** I had the pleasure of working with Kim this year on the build of the Falcon BPM tool.  She listened to requirements and reasoning for prioritization, and when prioritized, she delivered and delivered in a very timely fashion.  She has an easy-going manner about her and is a pleasure to partner with.  She obviously has the technical expertise to deliver as she has done all year.  I can see tremendous progress toward a one-stop tool that MRMO and SRE can use to manage feed processing and remediation.  She is a top-performer in my book. 
+Teamwork and Leadership (O)
+Kim exhibits positive, inclusive attitude with other team members that work with him. Kim is a good team member and always willing to take up tasks. Kim is a lead developer within market risk technology team with amazing team spirits. 
+** Comments from peers**
+“As the sole UI developer for the team for the most of the year, her delivery of the falcon-cc UI was a phenomenal achievement. The success of the BPM was dependent on a user friendly UI that was also functional and she managed to deliver on both...”
+Overall Performance Summary
+Overall, Kim had a productive year and I wish her very best and would like to continue working with her for more project deliveries next year with focus on other stakeholders like QR, MRBG etc. 
+Raw Feedback
+What are they doing well?
+- She explores and tries to deliver the best product.
+- She is a very hard working and takes all the efforts to deliver her stuff in timely manner. She understands the importance of time and dependence on other teams
+- She is a very good team player. It is a great pleasure working with her.
+- She always follows the Best Practices as per JPMC standard to deliver best product to client/End Users.
+As the sole UI developer for the team for the most of the year, her delivery of the falcon-cc UI was a phenomenal achievement. The success of the BPM was dependent on a user friendly UI that was also functional and she managed to deliver on both.
+Developed reusable and extensible UI components. This has made it easy for other developers to quickly onboard their own UIs to BPM.
+Proactively hanldes BPM/SDS production issues and at most times able to provide a resolution fairly quickly.
+Good communicator and is effective in managing user expectations.
+Kim is very talented and very capable engineer. I have been working with her for past 2 years on various projects and she always excels in her work and very helpful.
+She is a quick learner. She is very good team player.
+She is very dedictated and worked really really hard day and night to release Falcon Command Center to production.
+She quickly responds to any queries from SRE/L3/MRMO or any developers.
+She constantly improves the command center before even user noticing.
+She is always on top of any prod issues and offers solutions.
+She manages the expectations of various stake holders by properly organzing her work and delivering on time.
+It was amazing to see how she developed a Market Risk progress screen in a day.
+Kimberely has proactively taken up developement of falcon web UI with new tech stack of react JS.
+She activley takes up any dev or prod issues with falcon CC UI.
+She manages cross team interaction with users including MRMO well.
+Kim had intuitively developed MR Progress screen which SRE had been using very frequently even before BPM go-live.
+Always helpful and responsive. Whenever I encounter an issue related to the BPM framework: I can count on Kimberly to look into the issue and provide an explanation and/or a solution
+Kimberly saw an opportunity for us to benefit from her work with the UI. She reached out and discussed the opportunity to use components she was developing
+Kimberly follows up on issues; both issues she is working on and issues she needs me to work on
+Kim is excellent to work with. She's very responsive and helpful when it comes to fielding questions on the Falcon Command Center. She helps us understand and prioritize new requirements for the CC with each iterative release. 
+Sh also works with me after hours to help ensure we've done the proper testing before rolling into production. Because of her work we've been able to use a tool that is now benefiting the entire team with quick copyforwards, better feed/supply monitoring and audit log tracking. 
+We hope to continue working with her for more improvements and getting us away from legacy tools due to this current work.
+I had the pleasure of working with Kim this year on the build of the Falcon BPM tool.  She listened to requirements and reasoning for prioritization, and when prioritized, she delivered and delivered in a very timely fashion.  
+She has an easy-going manner about her and is a pleasure to partner with.  She obviously has the technical expertise to deliver as she has done all year.  
+I can see tremendous progress toward a one-stop tool that MRMO and SRE can use to manage feed processing and remediation.  
+She is a top-performer in my book.
+What do they need to start doing, stop doing or improve?
+
+Probably needs to focus a bit more testing before pushing to prod, especially since the UI and its related components are unlikely to be caught by source marker tests
