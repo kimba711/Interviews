@@ -1,0 +1,28 @@
+2020 self assessment
+
+Business result:
+
+I delivered on goals of the team and business
+•	I released the Falcon Command Center which was a huge improvement for Business users and the SRE team, as well as developers in monitoring, troubleshooting, and controlling all the Market Risk feeds. I built it in such a way that other teams could add pages to monitor their custom workflows as well, which enabled the Data sourcing team and the VAR PLA team to quickly onboard to the Command center
+•	I wrote the UI for the Marketrisk Progress screen and made enhancements to the server job/ caching job. It’s heavily relied on by the business and I helped to keep the data flow healthy despite many obstacles with connections to M2.   I enhanced the UI screen to enable MRMO to easily Copyforward all Missing feeds for a Snapshot in rainy day scenarios.
+•	I refined the Request monitor that I began in 2019. I added context menu actions to supply level and workitem level lineitems in the Request Monitor grid.  I added Log links for the tasks that direct to either the running bob log, or the completed stored log.
+•	I implemented Bulk Actions screens and updated them according to MRMO feedback: The Bulk rerun, bulk backfill, and Copyforward.
+•	I wrote the Copy forward service and UI screen which provided massive business value, used many times daily. I optimized it when it performed badly due to data center issues/ lags.
+•	I implemented the Admin Console that allows Tech teams and SRE to modify their environment configurations, quotas, worker numbers, and profiles, and to monitor their systems.
+•	I did thorough testing of new enhancements, and wrote strong UI test-cases despite many learning obstacles, as well as python tests.
+•	Opportunity: I can take on more BPM core tasks next year to become intimately familiar with all aspects of BPM.   Documentation is also something I intend to work on and I did not prioritize much this year.
+Client / Customer Focus:
+•	I held weekly meetings with MRMO to define and refine requirements, demo new features, and ensure the work was meeting their needs. I am seen as reliable and consistent.
+•	I was a reliable knowledgeable asset in my Production support weeks, and in the frequent Production support required during the challenging early stages of BPM and Command Center. I quickly solved Command Center issues brought to me by SRE, and learned how to support the BPM system.  I am becoming quicker and more proficient at BPM troubleshooting with time and will continue to do so.   
+•	In the Production support weeks I helped less knowledgable L3 teammates learn to support SDS, Non-SDS Ares feeds, the sourcemarker and other issues. I gave prompt responses to SRE and user queries and updated JIRAs to let them know the status.
+
+
+Team/ Leadership
+I have been a team player, a good communicator, and good collaborator.
+•	I was available to help teammates and onboarding team members get adjusted to BPM and sort out issues in their Dev environments.
+•	I helped the Data sourcing team onboard their new workflow to BPM and get their new BPM core environment setup.
+•	I am a good communicator and great at gageing the level of detail required for different people to understand the idea/ issue.   At the high level I have been able to communicate summaries of work/ issues/ etc to stakeholders with appropriate levels of detail.  E.g.  explaining Production support issues to MRMO
+•	I helped Nithin get acclimated to SDS, BPM, and Falcon CC and be able to quickly contribute features.
+
+
+
