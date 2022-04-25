@@ -1,0 +1,49 @@
+2019 self assessment
+
+Business result:
+
+I delivered on goals of the team and buisiness, including SDS migrations/ onboardings, SDS frameworks stability, the UI for the new BPM, and a development version of the Discovery service.
+•	Decent technical skillset, which I improved on with the React, Javascript, Typescript, and Athena Web framework training, as well as the Jasmine JS testing framework / other testing utilities like enzyme. This was my first real Web development project and I picked up a working knowledge in a short time.   I developed the first iteration of the BPM UI.
+•	I did thorough testing of new enhancements, and am a strong test-case writer
+•	I made sure I understood team priorities and adjusted when they changed.
+•	
+•	SDS POCs
+o	Wrote the initial Readers, transformers, nonstat measure transformers, and supply handlers for Athena Rates and Athena Credit.
+o	Wrote failback logic for Vita sensitivities with short retentions
+o	Supported Rates Zeta and desk migration onboardings
+•	Made a few small enhancements for SDS framework Stability, including the workItem baseline test which is preventing any code push that unintentionally changes workItem values
+•	I worked on the Discovery Service before it was put on hold.
+o	Co-designed with Prabu and Viju
+o	Wrote the service
+o	Implemented for
+	a pass-through DAC feed,
+	a pass-through Equities feed,
+	and a Commodities feed with criteria rules.
+•	Opportunities
+o	I could take more initiatives in a few things, namely taking on work to improve processes, and documentation. For example I had a great feed generation regression script that I had intended on committing/ sharing and never prioritized that work.
+
+
+
+
+
+
+
+
+Client / Customer Focus:
+•	I’m a very strong asset in production support. I have a reputation with much of the broader tech team as well as MRMO as dependable, able to find answers to all questions, and very on top of issues
+o	I am fast and efficient and strategic in solving problems
+o	I give prompt responses to user queries/ concerns
+o	People often come to me for help with legacy Ares and SDS framework support and I am always available to help.
+o	When I don’t know an answer I find the person who knows it quickly
+o	I have been sure to maintain enough general knowledge of the Marie Calc/ Marrs space so I almost always know where to look for answers.
+o	I always follow through on the issues that I pass to other teams, since the Prod Support process added that requirement.
+•	I collaborated a lot with onboarding teams to help them get their business needs met.
+•	I collaborated with Simon/ Darren’s team to address the sourcemarker test exclusions and add a time limit to those.
+•	I think I had/have the opportunity to further collaborate with other teams who are writing Athena web apps.
+Team / Leadership
+I have been a team player, a good communicator, and good collaborator.
+•	I had great collaboration with onboarding teams. I was available to help teammates, largely in the broader team and regarding SDS framework queries and Legacy Ares queries.   I was a big help in getting some of the LOB team members get acclomated to the SDS Framework.  I displayed some leadership qualities in this area.
+•	I have a positive and cheerful attitude regardless of the interest-level of the task I need to do.
+•	I am a great communicator and great at gageing the level of detail required for different people to understand the idea/ issue.   At the high level I have been able to communicate summaries of work/ issues/ etc to stakeholders with appropriate levels of detail.  E.g.  explaining Production support issues to MRMO, summarizing work on MXP Core calls.   I have also been an efficient communicator with regards to the LOB onboarding teams who were learning the SDS framework.
+•	I noticed I could be better at communicating at a detailed technical level to teammates, and fostering/ participating in a collaborative development environment.  And I could do better about asking for and providing feedback both from manager and teammates.  I would like to do that more and lead collaboration efforts next year. 
+
