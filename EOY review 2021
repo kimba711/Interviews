@@ -1,0 +1,46 @@
+Annual Review Comments
+Business Results (S)
+Kimberly’s 2021 major accomplishments include
+•	UI: Command Center
+o	Delivering HOLD/Release feature with automated release after 10Q is marked.
+o	Delivered automated copy forwards.
+o	Delivered feed re-triggers for many supplies at once, from a single screen.
+o	Implemented ISR/sVAR copy forwards in a quick time to enable ISR go-live.
+•	Core BPM
+o	Developed KPI – Key Performance and Key metrics analysis tool to help answer during critical loads/production incidents.
+o	DR Preparedness and adding run book for SRE.
+o	Performance improvements on quota allocation with greedy strategy that reduced task allocation to workers.
+•	Various small enhancements like py2-py3, bug fixes, enhancements etc.
+Kim, implemented a very important control feature for MRMO/SRE to hold supplies at supply level or at a task level (for ex: SFTP on hold).  This allowed MRMO to safely CF a supply without having to be concerned on natural BPM supply run to override the results. Prior to this, CF supplies would be overwritten by the incoming supply results, causing MRMO to re-perform variance analysis and take additional control steps.
+Kim, solely worked with Athena UI team to incorporate Athena library releases and depreciation to keep up the command center in its current performing state.
+Kim, is leading effort on GPS (Global Pricing Service) work on AWS Cloud, which is expected to reduce compute needs for sensi by 50% and full reval by 25%. This is an important paradigm shift for the org to enable massively compute intensive FRTB calculations, aligning with modernization agenda.
+Overall, she had a productive year and I wish her very best and would like to continue working wither for more project deliveries.
+** Comment from Stakeholder: MRMO **
+Kimberly has been an excellent technology partner to the Market Risk Middle Office. The Falcon BPM tool is instrumental in performing the control functions in MRMO. Kim listens to our needs and has delivered on many enhancements to make our jobs easier. She makes an effort to use stakeholder feedback to apply the appropriate prioritization to requests for enhancements.
+Client / Customer / Stakeholder (S)
+One of main accomplishments for Kim this year has been able to get both SRE and MRMO on weekly prioritization forum and agree on controls and monitoring needed for MR processes. The control features were delivered to the satisfaction of the stakeholders.
+She has been the go-to person for SRE during critical load times or production incidents that needed advice from BPM core team.
+** Comment from Stakeholder: MRMO ** 
+This year I have worked with Kim on ISR and multiple Prod issues and it has been a great experience. She is quick to respond back to inquiries and actively takes lead on issues and work closely with team to resolve the issues. She is my go to person for core related challenges as well as for critical prod issues. I can openly reach out to her without any hesitation for any critical issues and she has always either provided a solution or directed me to right person who can help me. She has been a real team player I wish her good luck for next year and looking forward to work with her. 
+Kimberly has taken up the responsibility of command center and its enhancement proactively. She also drives the requirement request and review forum for it. Along with it, she is also involved in enhancing BPM infrastructure and find ways to provide more robust solution for last BPM Services. She is an asset to the team and drives Wednesday weekly team meetings, ensuring the entire team's tasks are up to date and are well informed of each other's task. She has taken up lead role in designing the GPS product and is working hard to ensure BPM's move to cloud infrastructure is smooth.“
+Teamwork and Leadership (O)
+Kim exhibits positive, inclusive attitude with other team members that work with him. Kim is a good team member and always willing to take up tasks. Kim is a lead developer within market risk technology team with amazing team spirits. 
+** Comments from peers**
+“You are good team player and getting help on-time in critical times. Thanks for your support in BAU works, IDA and py2 to py3 migration and for diligent code reviews…”
+Overall Performance Summary
+Overall, Kim had a productive year and I wish her very best and would like to continue working with her for more project deliveries next year with focus on other stakeholders like QR, MRBG etc., in addition to MRMO.
+ 
+
+Raw Feedback
+What are they doing well?
+
+This year I have worked with Kim on ISR and multiple Prod issues and it has been a great experience. She is quick to respond back to inquiries and actively takes lead on issues and work closely with team to resolve the issues. She is my go to person for core related challenges as well as for critical prod issues. I can openly reach out to her without any hesitation for any critical issues and she has always either provided a solution or directed me to right person who can help me. She has been a real team player I wish her good luck for next year and looking forward to work with her.
+You are good team player and getting help on-time in critical times. Thanks for your support in BAU works, IDA and py2 to py3 migration and for diligent code reviews.
+Kimberly has been an excellent technology partner to the Market Risk Middle Office. The Falcon BPM tool is instrumental in performing the control functions in MRMO. Kim listens to our needs and has delivered on many enhancements to make our jobs easier. She makes an effort to use stakeholder feedback to apply the appropriate prioritization to requests for enhancements
+This year Kim has continued in her role as UI lead for Marie Core and has also taken on additional responsibilities of resolving the performance bottlenecks of Falcon BPM. She is technically very competent and her insights and opinions during meetings/code reviews are always very valuable. Any queries or issues that come her way are readily taken care of. She is also the lead developer for the cloud migration of Pricing Service (GPS) and has been proactive in requirements gathering & design as well as technical analysis as of the new cloud platform.
+Kimberly has taken up the responsibility of command center and its enhancement proactively. She also drives the requirement request and review forum for it. Along with it, she is also involved in enhancing BPM infrastructure and find ways to provide more robust solution for last BPM Services. She is an asset to the team and drives Wednesday weekly team meetings, ensuring the entire team's tasks are up to date and are well informed of each other's task. She has taken up lead role in designing the GPS product and is working hard to ensure BPM's move to cloud infrastructure is smooth.
+
+What do they need to start doing, stop doing or improve?
+Good Luck for the Cloud Work.
+I'm glad that she has more developers helping her now, as it does take time to get enhancements with only one person dedicated to this critical toolset.
+Improve on documentation. This can be really useful for production support as well as for newcomers to the team.
