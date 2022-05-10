@@ -1,0 +1,78 @@
+2017 self assessment
+
+Accomplishments
+1)	Credit Muni
+a.	Sort of managed Credit Muni project for a while.  
+b.	Spent a lot of time debugging complicated code and learning some of the innards of the Vita code.  
+c.	Got understanding of the flow of the whole engine, all the services
+d.	Wrote job to store MMD Data in Alice / retrieval API, and plugged that into the Proxy service
+e.	Wrote code snippet and retrieval API for Var indicator table, provided it to Qi
+f.	Credit Muni specific feed code. 
+i.	 Including failover logic.
+ii.	Special handling for 10D HVAR
+iii.	Special handling for VPL
+g.	Timely responses to all QR’s requests for various tweaks.
+h.	Resolved most of the attributes needed to mimic those on the existing WOPR feeds.
+i.	Extensive testing with MArrs team and WOPR team to get the PNL and attributes matching WOPR
+2)	I wrote a lot of the feed generation code, improved it, re-structured it to make it more extendable and wrote Credit Muni specific feed code on top of it.  Worked with Vijay and Anudeep to optimize expensive feed generation process for giant CHF feed.  Split up process into Positions reports and Sensitivity report/ EOD report (which combines the two and formats to MDL specifications)
+3)	Analyzed NA Govies population – set up the batches for all the desks. Identified Market Deps/ timeseries we’d need for each and compared wit hmarrs to find gaps.
+4)	CHF
+a.	Job stability, maintenance, adhoc requests from Users, QR, Vijay
+b.	In Prod parallel, worked to respond to MRMO and Coverage’s requests and give them new data to view as quickly as possible 
+c.	Attributes
+d.	Investigating / fixing breaks in numbers
+5)	NA Govies
+a.	Worked out initial errors in Calc jobs
+b.	Job maintenance/ stability
+c.	Investigating / fixing breaks in numbers
+d.	
+
+ Was dependable, dedicated, foresaw issues, kept up with constnatnly changing priorities.  Excellent and quick problem solving 
+
+
+Business Results
+•	CHF Swap Sensitivity VaR Migration in Prod Parallel
+o	Sensitivity VaR Calculations in MARIE Calc are feeding MaRRS in Production parallel mode, about to Go Live to Production.  I helped accomplish this.
+o	I ensured Bob job stability and did maintenance
+o	I Investigated breaks in numbers and escalated to QR when necessary
+o	I wrote a lot of the feed generation code, improved it, re-structured it to make it more extendable.  I worked with Vijay and Anudeep to optimize expensive feed generation process for the giant CHF feed.  I split up the result processor into Positions reports and Sensitivity report/ EOD report (which combines the two and formats to MDL specifications)
+o	I became the go-to person on the Rates (and Credit Muni) feeds.
+
+o   NA Govies Full Reval VaR Migration in Prod Parallel
+o	Full Revaluation VaR Calculation jobs are running daily in MARIE Calc and feeding prod parallel in MaRRS, about to feed Production.  I helped accomplish this.
+	Worked out initial errors in Calc jobs
+	Job maintenance/ stability
+	Investigating / fixing breaks in numbers
+	MGG Submissions / approvals were completed.  
+•	I helped get the Calculation jobs in shape for this,
+•	Analysis of NA Govies population for QR 
+•	Handled Ad-hoc  requests for QR
+o	Credit Muni
+	I handled the Credit Muni project from initiation through Prod Parallel.  I acted as the primary developer on the Marie side and worked with Jun and QR to get the requirements and deliver the results.
+	Spent a lot of time debugging complicated code and learning some of the innards of the Vita code.  
+	I developed a good understanding of the flow of the whole Marie Calc engine, the inputs and outputs of all the services, and a decent understanding of the internals of the Instrument and Exposure services.
+	I wrote a job to store MMD Data in Alice / retrieval API, and plugged that into the Proxy service
+	I wrote the storage/ retrieval API for the VAR indicator table (Approved vs. Unapproved), and provided it to Credit QR.
+	Credit Muni specific feed code. 
+•	 Including failover logic.
+•	Special handling for 10D HVAR
+•	Special handling for VPL
+	I identified and resolved most of the attributes needed to match those on the existing WOPR feeds.
+	I performed extensive testing with the Marrs team and WOPR team to get the PNL and attributes matching existing WOPR feeds to Marrs
+	
+
+
+Client/ Customer focus
+“identify and deliver appropriate solutions that address the needs of clients/ customers”
+-	Delivered Credit Muni work for Jun and Janet.  Responded promptly to their requests for various tweaks / enhancements
+1)	In Prod parallel for CHF Swaps and NA Govies, I worked to respond to MRMO and Coverage’s requests and give them new data to view as quickly as possible 
+2)	I worked to identify / resolve Feed attributes on the CHF Swaps and Na Govies feeds to match existing Marrs Production feeds, and to satisfy the Users’ requirements.
+3)	
+
+Teamwork / Leadership
+“foster a collaborative and inclusive environment while managing your responsibilities”
+
+Helped Anudeep and Sam get up to speed.
+99% test coverage of my code, to catch failures
+I think there is room for better communication on the Rates team.  I can do a few things to facilitate that:   Sam – asking her more questions that I know she doesn’t have the answer to, to compel her to look stuff up.  This seems to work well, and I can even ask less specific questions to get her to do more research herself.   I can give her more pressing task and better communicate the urgency of them.  I can commit to clarifying on the daily standups exactly what I’m going to do that day, and ensuring everyone else says what they’re going to do until this becomes habitual.  I can ask more general  questions on the standup calls, which will benefit me and increase everyone’s understanding of each others’ work.
+
