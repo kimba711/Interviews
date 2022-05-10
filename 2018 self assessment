@@ -1,0 +1,167 @@
+2018 self assessment
+1)	Production support of  NA Govies and CHF Rates feeds
+a.	Engaging Rates Tech to resolve Rates Position API discrepencies
+b.	Quick to pick up Rates prod issues – the go-to person for Rates for Operate/ MRMO
+c.	Continuous requests 
+i.	Exclude books from USGB
+ii.	Add 10D jobs
+iii.	Remove a RF from Options 
+iv.	Handled testing whenever Rates Tech made a change that would affect us.
+d.	Very thorough testing of enhancements.  Rarely had issues where a new feature broke production code.
+2)	SCA/ QMM/ USD MGMT \ STIRT Desk Migrations
+a.	Coordinated with the Rates teams to see this through to Prod
+b.	Volcker Tech recs
+c.	Came up with solutions to handle the different behaviors of all the Rates desks, esp in different regions.
+i.	a solution for hybrid Desks – desks with books from Athena / books from Kapital
+ii.	Pnl predict instrument provider code to take different DB / different View Key params
+3)	SOFR Futures project – Rates Exotics SL setup
+4)	Code hygiene
+a.	Deleted old Rates environments
+b.	Continuous improvements on result processor code
+i.	Better way of creating Rates supply names
+ii.	Utility functions to get info on all the many Rates groups
+iii.	Proeuctionized DFEXP and LASTMV acquisition jobs
+iv.	 
+5)	SDS – helped Yelena and Swathi get acclimated to Athena and SDS framework, and set up the first Rates transformer
+a.	Provided them support on SDS when needed
+6)	New Proxy framework – Tested it for NA Govies and CHF
+7)	Rates Athena  / Zeta Spread migration
+a.	Set up all 59 groups , all configs, position filters, 
+b.	Zeta Spread Vita Risk Configs
+c.	Code changes to handle hybrid groups – 
+i.	groups with one set of product classes for FRV and separate product classes for Sensi.
+ii.	Groups with some Risk Factors on Sensi and some on FRV
+8)	General Ares/ Chronos production support
+a.	DR Testing one weekend
+b.	Sourcemarker issues
+c.	Prompt responses to user queries / concerns
+9)	Teamwork
+a.	Helped Rakesh get acclimated to Athena/ Python/ Rates Athena project work
+b.	Helped Sam out with getting acclimated to Athena/ Python
+c.	Worked with Rakesh to split the Rates Athena and Desk migration work in Agile fashion
+
+
+
+Business Results
+1)	Very thorough testing of enhancements.  Rarely had issues where a new feature broke production code.
+2)	SCA/ QMM/ USD MGMT \ STIRT Desk Migrations
+a.	Coordinated with the Rates teams to see this through to Prod
+b.	Volcker Tech recs
+c.	Came up with solutions to handle the different behaviors of all the Rates desks, esp in different regions.
+i.	a solution for hybrid Desks – desks with books from Athena / books from Kapital
+ii.	Pnl predict instrument provider code to take different DB / different View Key params
+3)	SOFR Futures project – Rates Exotics SL setup
+4)	Code hygiene
+a.	Deleted old Rates environments
+b.	Continuous improvements on result processor code
+i.	Better way of creating Rates supply names
+ii.	Utility functions to get info on all the many Rates groups
+iii.	Productionized DFEXP and LASTMV acquisition jobs
+5)	Rates Athena  / Zeta Spread migration
+a.	Set up all 59 groups , all configs, position filters, 
+b.	Zeta Spread Vita Risk Configs
+c.	Code changes to handle hybrid groups – 
+i.	groups with one set of product classes for FRV and separate product classes for Sensi.
+ii.	Groups with some Risk Factors on Sensi and some on FRV
+
+
+Client/ Customer Focus
+a.	I have a good sense of the priority of tasks and always get clarification when needed to ensure I am doing the work that’s most important to the business.
+b.	Quick to pick up Rates prod issues and queries from MRMO.  I became the Go-to person for handling Rates prod issues / Error report questions.
+c.	I promptly address continuous requests from the business for the Production population.  Some examples are: Add 10D jobs, Remove a Risk Factor from Options products, exclude FIF books
+d.	Worked closely with QR to provide results for submissions and other requirements.  Thoroughly tested the new Proxy framework for Production populations.
+Teamwork / Leadership
+a.	Helped Rakesh and Sam get acclimated to Athena/ Python/ Rates Athena project work.  Demonstrated for them, walked through code, and empowered them to find answers themselves.
+b.	Helped assign Sam tasks and helped her execute them.
+c.	Took responsibility for Rates Production issues, saw them through to timely resolution.
+d.	Worked with Rakesh (and later Anthony) to split the Rates Athena and Desk migration work in an Agile fashion
+e.	I am very approachable and responsive and have been happy to help out team members on many occasions.
+f.	SDS – helped Yelena and Swathi get acclimated to Athena and SDS framework, and set up the first Rates transformer
+a.	Provided them additional support on SDS when needed
+g.	General Ares/ Chronos production support
+a.	Handled Production support issues from other Lob’s, researching solutions to issues myself and soliciting help from team members when absolutely necessary.
+b.	Handle Sourcemarker issues with priority, looking into them myself or handing them off to the perpetrators/ following up
+h.	
+
+
+
+
+2017
+
+
+Accomplishments
+1)	Credit Muni
+a.	Sort of managed Credit Muni project for a while.  
+b.	Spent a lot of time debugging complicated code and learning some of the innards of the Vita code.  
+c.	Got understanding of the flow of the whole engine, all the services
+d.	Wrote job to store MMD Data in Alice / retrieval API, and plugged that into the Proxy service
+e.	Wrote code snippet and retrieval API for Var indicator table, provided it to Qi
+f.	Credit Muni specific feed code. 
+i.	 Including failover logic.
+ii.	Special handling for 10D HVAR
+iii.	Special handling for VPL
+g.	Timely responses to all QR’s requests for various tweaks.
+h.	Resolved most of the attributes needed to mimic those on the existing WOPR feeds.
+i.	Extensive testing with MArrs team and WOPR team to get the PNL and attributes matching WOPR
+2)	I wrote a lot of the feed generation code, improved it, re-structured it to make it more extendable and wrote Credit Muni specific feed code on top of it.  Worked with Vijay and Anudeep to optimize expensive feed generation process for giant CHF feed.  Split up process into Positions reports and Sensitivity report/ EOD report (which combines the two and formats to MDL specifications)
+3)	Analyzed NA Govies population – set up the batches for all the desks. Identified Market Deps/ timeseries we’d need for each and compared wit hmarrs to find gaps.
+4)	CHF
+a.	Job stability, maintenance, adhoc requests from Users, QR, Vijay
+b.	In Prod parallel, worked to respond to MRMO and Coverage’s requests and give them new data to view as quickly as possible 
+c.	Attributes
+d.	Investigating / fixing breaks in numbers
+5)	NA Govies
+a.	Worked out initial errors in Calc jobs
+b.	Job maintenance/ stability
+c.	Investigating / fixing breaks in numbers
+d.	
+
+ Was dependable, dedicated, foresaw issues, kept up with constnatnly changing priorities.  Excellent and quick problem solving 
+
+
+Business Results
+•	CHF Swap Sensitivity VaR Migration in Prod Parallel
+o	Sensitivity VaR Calculations in MARIE Calc are feeding MaRRS in Production parallel mode, about to Go Live to Production.  I helped accomplish this.
+o	I ensured Bob job stability and did maintenance
+o	I Investigated breaks in numbers and escalated to QR when necessary
+o	I wrote a lot of the feed generation code, improved it, re-structured it to make it more extendable.  I worked with Vijay and Anudeep to optimize expensive feed generation process for the giant CHF feed.  I split up the result processor into Positions reports and Sensitivity report/ EOD report (which combines the two and formats to MDL specifications)
+o	I became the go-to person on the Rates (and Credit Muni) feeds.
+
+o   NA Govies Full Reval VaR Migration in Prod Parallel
+o	Full Revaluation VaR Calculation jobs are running daily in MARIE Calc and feeding prod parallel in MaRRS, about to feed Production.  I helped accomplish this.
+	Worked out initial errors in Calc jobs
+	Job maintenance/ stability
+	Investigating / fixing breaks in numbers
+	MGG Submissions / approvals were completed.  
+•	I helped get the Calculation jobs in shape for this,
+•	Analysis of NA Govies population for QR 
+•	Handled Ad-hoc  requests for QR
+o	Credit Muni
+	I handled the Credit Muni project from initiation through Prod Parallel.  I acted as the primary developer on the Marie side and worked with Jun and QR to get the requirements and deliver the results.
+	Spent a lot of time debugging complicated code and learning some of the innards of the Vita code.  
+	I developed a good understanding of the flow of the whole Marie Calc engine, the inputs and outputs of all the services, and a decent understanding of the internals of the Instrument and Exposure services.
+	I wrote a job to store MMD Data in Alice / retrieval API, and plugged that into the Proxy service
+	I wrote the storage/ retrieval API for the VAR indicator table (Approved vs. Unapproved), and provided it to Credit QR.
+	Credit Muni specific feed code. 
+•	 Including failover logic.
+•	Special handling for 10D HVAR
+•	Special handling for VPL
+	I identified and resolved most of the attributes needed to match those on the existing WOPR feeds.
+	I performed extensive testing with the Marrs team and WOPR team to get the PNL and attributes matching existing WOPR feeds to Marrs
+	
+
+
+Client/ Customer focus
+“identify and deliver appropriate solutions that address the needs of clients/ customers”
+-	Delivered Credit Muni work for Jun and Janet.  Responded promptly to their requests for various tweaks / enhancements
+1)	In Prod parallel for CHF Swaps and NA Govies, I worked to respond to MRMO and Coverage’s requests and give them new data to view as quickly as possible 
+2)	I worked to identify / resolve Feed attributes on the CHF Swaps and Na Govies feeds to match existing Marrs Production feeds, and to satisfy the Users’ requirements.
+3)	
+
+Teamwork / Leadership
+“foster a collaborative and inclusive environment while managing your responsibilities”
+
+Helped Anudeep and Sam get up to speed.
+99% test coverage of my code, to catch failures
+I think there is room for better communication on the Rates team.  I can do a few things to facilitate that:   Sam – asking her more questions that I know she doesn’t have the answer to, to compel her to look stuff up.  This seems to work well, and I can even ask less specific questions to get her to do more research herself.   I can give her more pressing task and better communicate the urgency of them.  I can commit to clarifying on the daily standups exactly what I’m going to do that day, and ensuring everyone else says what they’re going to do until this becomes habitual.  I can ask more general  questions on the standup calls, which will benefit me and increase everyone’s understanding of each others’ work.
+
